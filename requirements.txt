@@ -1,0 +1,7 @@
+Flask~=1.1.2
+PyYAML~=6.0
+xmltodict~=0.13.0
+msgpack~=1.0.5
+avro~=1.11.1
+requests~=2.31.0
+markupsafe==2.0.1

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package test;
+
+message Data {
+    string str = 1;
+    int64 int = 2;
+    double float = 3;
+    map<string, string> dict = 4;
+    repeated string list = 5;
+}
+
+message Test {
+  optional Inner root = 1;
+}

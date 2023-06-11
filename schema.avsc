@@ -1,0 +1,32 @@
+{
+  "type": "record",
+  "name": "SerializationData",
+  "fields": [
+    {
+      "name": "str",
+      "type": "string"
+    },
+    {
+      "name": "int",
+      "type": "long"
+    },
+    {
+      "name": "float",
+      "type": "double"
+    },
+    {
+      "name": "dict",
+      "type": {
+        "type": "map",
+        "values": "string"
+      }
+    },
+    {
+      "name": "list",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}
